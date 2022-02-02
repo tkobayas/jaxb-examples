@@ -9,10 +9,10 @@ import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 
-public class Main {
+public class SimpleMain {
 
     public static void main(String[] args) throws JAXBException, IOException {
-        Main main = new Main();
+        SimpleMain main = new SimpleMain();
         main.marshal();
         
         Book book = main.unmarshall();
